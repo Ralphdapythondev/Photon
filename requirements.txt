@@ -1,7 +1,8 @@
-streamlit==1.25.0
+streamlit
 pandas==2.1.1
 requests==2.31.0
 requests[socks]==2.31.0
 urllib3==2.0.4
 tld==0.13
 pillow==10.0.0
+
