@@ -1,8 +1,8 @@
 streamlit
-pandas==2.0.3
-requests==2.31.0
-requests[socks]==2.31.0
-urllib3==2.0.4
-tld==0.13
-pillow==10.0.0
+pandas
+requests
+requests[socks]
+urllib3
+tld
+pillow
 
