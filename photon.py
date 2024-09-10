@@ -2,6 +2,19 @@ import streamlit as st
 import pandas as pd
 import json
 
+# Initialize the datasets with empty sets if they haven't been populated yet
+files = files if 'files' in locals() else set()
+intel = intel if 'intel' in locals() else set()
+robots = robots if 'robots' in locals() else set()
+custom = custom if 'custom' in locals() else set()
+failed = failed if 'failed' in locals() else set()
+internal = internal if 'internal' in locals() else set()
+scripts = scripts if 'scripts' in locals() else set()
+external = external if 'external' in locals() else set()
+fuzzable = fuzzable if 'fuzzable' in locals() else set()
+endpoints = endpoints if 'endpoints' in locals() else set()
+keys = keys if 'keys' in locals() else set()
+
 # Sample datasets for demo purposes
 datasets = {
     'files': list(files),
